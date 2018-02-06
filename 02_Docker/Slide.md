@@ -1,8 +1,6 @@
-## Markdown support Write content using inline or external Markdown
+# Docker
 
-Instructions and more info available in the [readme](https://github.com/hakimel/reveal.js#markdown).
-
-UFFA
+## un facilitatore per utilizzare i Container e le tecnologie ad essi collegate
 
 ---
 

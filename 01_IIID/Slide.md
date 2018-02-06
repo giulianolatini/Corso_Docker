@@ -1,6 +1,8 @@
-# Teoria e Definizioni
+# Infrastruttura, Isolamento, Idempotenza e DevOps
 
-## _dal punto di vista delle operation_
+## ovvero i vantaggi e i vincoli della definizione formale di un'infrastruttura
+
+## concetti teorici e glossario
 
 ---
 
