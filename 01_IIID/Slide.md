@@ -1,8 +1,10 @@
-# Infrastruttura, Isolamento, Idempotenza e DevOps
+# I.I.I.D.
 
-## ovvero i vantaggi e i vincoli della definizione formale di un'infrastruttura
+## Infrastruttura, Isolamento, Idempotenza e DevOps
 
-## concetti teorici e glossario
+### i vantaggi e i vincoli della definizione formale di un'infrastruttura
+
+### concetti teorici e glossario
 
 ---
 
