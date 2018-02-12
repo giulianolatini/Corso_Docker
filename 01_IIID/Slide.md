@@ -8,6 +8,58 @@
 
 ---
 
+## Docker
+
+### Un facilitatore?
+
+### Un hub di tecnologie?
+
+Un significato nuovo alla parola _Infrastruttura_ e un modo nuovo per costruirla.
+
+---
+
+## Docker gli inizi
+
+![Graphics DevOps Origin](01_IIID/img/Docker-linux-dependencies.png)
+<!-- .element height="50%" width="50%" -->
+
+---
+
+## Docker Oggi
+
+![Graphics DevOps Origin](01_IIID/img/ContainerLifeCycle_and_Technologies.png)
+<!-- .element height="100%" width="100%" -->
+
+---
+
+## L'immagine secondo Docker.inc
+
+![Graphics DevOps Origin](01_IIID/img/Container_Meaning_from_Docker_Website.png)
+<!-- .element height="100%" width="100%" -->
+
+<p>È un <b><i>artefatto</i></b>. Il <i class="fragment highlight-blue">Container</i> è la sua rappresentazione operativa come il <span class="fragment highlight-red">processo</span> lo è del <span class="fragment highlight-green">codice</span>.</p>
+
+---
+
+## Il Container
+
+<table>
+  <tbody>
+    <tr>
+      <td style="center">
+        <img src="01_IIID/img/WhatIsAContainer.png" 
+             alter="Graphics DevOps Origin" 
+             width="3600">
+      </td>
+      <td style="center; vertical-align: middle;">
+        Il <i>Container</i> è un elemento isolato e autosufficiente, accessibile attraverso la rete. Esso astrae a livello applicativo le dipendenze necessarie al codice.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ## Le origini del termine _DevOps_
 
 ![Graphics DevOps Origin](01_Teoria/img/Devops.svg)
