@@ -4,78 +4,54 @@
 
 ---
 
->quoting quoting quoting quoting quoting quoting quoting quoting quoting
->quoting quoting quoting quoting quoting quoting quoting quoting quoting
->quoting quoting quoting quoting quoting quoting quoting quoting quoting
->quoting quoting quoting quoting quoting quoting quoting quoting quoting
->quoting quoting quoting quoting quoting quoting quoting quoting quoting
+## Cosa è Docker
+
+### Un facilitatore?
+
+### Un hub di tecnologie?
+
+### Un significato nuovo alla parola _Infrastruttura_ <br> e un modo nuovo per costruirla.
 
 ---
 
-Prova Prova
+## Docker, gli inizi
 
-Prova Prova
-
----
-
-* test
-* Test
-* TEST
+![Graphics DevOps Origin](02_Docker/img/Docker-linux-dependencies.png)
+<!-- .element height="50%" width="50%" -->
 
 ---
 
-- Item 1
-<!-- .element: class="fragment" data-fragment-index="2" -->
-- Item 2
-<!-- .element: class="fragment" data-fragment-index="1" -->
+## Docker Oggi
+
+![Graphics DevOps Origin](02_Docker/img/ContainerLifeCycle_and_Technologies.png)
+<!-- .element height="100%" width="100%" -->
 
 ---
 
-```yaml
-version: '2'
+## L'immagine secondo Docker.inc
 
-services:
-  web:
-    image: nginx
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ${DOCKER_COMPOSE_HOME}/.conf/nginx/site.conf:/etc/nginx/conf.d/default.conf:ro
-      - ${SITE_ROOT}:/var/www/html:rw
-    links:
-      - php
+![Graphics DevOps Origin](02_Docker/img/Container_Meaning_from_Docker_Website.png)
+<!-- .element height="100%" width="100%" -->
 
-  php:
-    build: ./php/
-    volumes:
-      - ${DOCKER_COMPOSE_HOME}/.conf/php-fpm/site.conf:/etc/php5/fpm/pool.d/site.conf:ro
-      - ${SITE_ROOT}:/var/www/html:rw
-    environment:
-      XDEBUG_CONFIG: remote_host=${REMOTE_HOST}
-```
-<!-- .element: class="stretch" -->
+È un <b><i>artefatto</i></b>. Il <i style="color:DodgerBlue;">Container</i> è la sua rappresentazione operativa come il <span style="color:Tomato;">processo</span> lo è del <span style="color:MediumSeaGreen;">codice</span>.
 
 ---
 
-```python
-#!/usr/bin/env python27
-import urllib2
-import base64
-import json
-import os
-import sys
-import re
+## Il Container
 
-os.system("clear")
-print "-" * 80
-print "Command Line Search Tool"
-print "-" * 80
+<table>
+  <tbody>
+    <tr>
+      <td style="center">
+        <img src="02_Docker/img/WhatIsAContainer.png" 
+             alter="Graphics DevOps Origin" 
+             width="3600">
+      </td>
+      <td style="center; vertical-align: middle;">
+        Il <i>Container</i> è un elemento isolato e autosufficiente, accessibile attraverso la rete. Esso astrae a livello applicativo le dipendenze necessarie al codice.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-def Banner(text):
-    print "=" * 70
-    print text
-    print "=" * 70
-    sys.stdout.flush()
-```
-<!-- .element: class="stretch" -->
+---
