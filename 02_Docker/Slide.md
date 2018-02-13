@@ -55,3 +55,27 @@
 </table>
 
 ---
+
+### Docker 101: Introduction to Docker 
+
+<iframe 
+  width="730" height="550" 
+  src="https://www.youtube.com/embed/kwsJIH5TGIg?ecver=1;start=135;end=628;loop=1" 
+  frameborder="0" 
+  allow="autoplay; encrypted-media" 
+  allowfullscreen>
+</iframe>
+
+---
+## VM Consolidation
+
+![Graphics DevOps Origin](02_Docker\img\VMConsolidation.png)
+<!-- .element height="100%" width="100%" -->
+
+---
+## Container Consolidation
+
+![Graphics DevOps Origin](02_Docker\img\ContainerConsolidation.png)
+<!-- .element height="100%" width="100%" -->
+
+---
