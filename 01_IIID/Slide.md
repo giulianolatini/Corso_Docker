@@ -33,7 +33,7 @@ Note: la copia di un file, se non modifico il sorgente quello che otterò sulla 
     <tr>
       <td style="center; vertical-align: middle;">
         <img src="01_IIID/img/Devops.svg"
-             style="height:800px; width:400px; max-width: 300%; max-height: 300%;"
+             style="height:400px; width:400px; max-width: 300%; max-height: 300%;"
              alt="Graphics DevOps Origin">
       </td>
       <td style="center; vertical-align: middle; width:500px;">
