@@ -6,17 +6,28 @@
 
 ## Quando uso le VM
 
-* Hardware da simulare (Es. MAME is a multi-purpose emulation framework.)
+* Hardware da simulare<br>Es. <i>MAME is a multi-purpose emulation framework.</i>
 
-* Software monolitico e fortemente interconnesso (Es. GUI + Business logic)
+* Software monolitico e fortemente interconnesso<br>Es. <i>GUI unita alla Business logic</i>
 
-* Software GUI e Console a meno che non sia Web-based
+* Software GUI e Console esclusi quelli Web-based
 
 * Software non scalabile
 
-* Quando lo sforzo di Automazione delle Op. produce un ROI negativo
+* Quando lo sforzo di Automazione delle Op.<br>produce un ROI negativo
 
 Note: ROI = [Return on investment](https://it.wikipedia.org/wiki/Return_on_investment)
 
 ---
 
+## Quando uso i Container
+
+* Bounderies dei domini ben definiti
+
+* Software cli-based su OS Linux o Windows
+
+* Software su architettura Client/Server connessi attraverso Network TCP/IP
+
+* Alta scalabilità e automazione dei processi Op
+
+* Assenza di stato nei worker applicativi, gli stati sono persistiti da altri elementi architetturali
