@@ -1,0 +1,11 @@
+{
+    "default": true,
+    "MD007": false,
+    "no-hard-tabs": false,
+    "line-length": false,
+    "html": true,
+    "no-inline-html": false,
+    "no-trailing-punctuation": false,
+    "blanks-around-headers": false,
+    "no-trailing-spaces": false
+}
