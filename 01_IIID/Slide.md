@@ -5,27 +5,6 @@
 ### i vantaggi e i vincoli della definizione formale di un'infrastruttura
 
 ---
-
-## Infrastruttura
-
-Insieme di materiale ed elementi singoli che collaborano a sostenere, produrre ed erogare beni e servizi. Nel mondo ICT sono hardware e/o artefatti software che collaborano per risolvere problemi complessi.
-
----
-
-## Isolamento
-
-Il concetto di <i style="color:Tomato;">Isolamento</i> dipende dalla definizione di due domini che chiameremo per convenzione <i style="color:MediumSeaGreen;">Interno</i> ed <i style="color:DodgerBlue;">Esterno</i> e dalla definizione di una superficie di separazione tra Interno ed Esterno chiamata per convenzione <i style="color:Orange;">Confine</i>. L'<i style="color:Tomato;">Isolamento</i> si applica sul <i style="color:Orange;">Confine</i> e condiziona lo scambio tra <i style="color:MediumSeaGreen;">Interno</i> ed <i style="color:DodgerBlue;">Esterno</i>.
-
----
-
-## Idempotenza
-
-<p style="color:DodgerBlue;">È la proprietà di un'operazione che applicata una o più volte non cambia il risultato prodotto.</p><p style="color:MediumSeaGreen;">L'applicazione multipla ed asincrona della funzione con questa proprietà non introduce collisioni o comportamenti non deterministici.</p>
-
-Note: la copia di un file, se non modifico il sorgente quello che otterò sulla destinazione sarà lo stesso file o un fallimento dell'operazione.
-
----
-
 ## DevOps
 
 <table>
@@ -44,6 +23,26 @@ Note: la copia di un file, se non modifico il sorgente quello che otterò sulla 
     </tr>
   </tbody>
 </table>
+
+---
+
+## Infrastruttura
+
+Insieme di materiale ed elementi singoli che collaborano a sostenere, produrre ed erogare beni e servizi. Nel mondo ICT sono hardware e/o artefatti software che collaborano per risolvere problemi complessi.
+
+---
+
+## Isolamento
+
+Il concetto di <i style="color:Tomato;">Isolamento</i> dipende dalla definizione di due domini che chiameremo per convenzione <i style="color:MediumSeaGreen;">Interno</i> ed <i style="color:DodgerBlue;">Esterno</i> e dalla definizione di una superficie di separazione tra Interno ed Esterno chiamata per convenzione <i style="color:Orange;">Confine</i>. L'<i style="color:Tomato;">Isolamento</i> si applica sul <i style="color:Orange;">Confine</i> e condiziona lo scambio tra <i style="color:MediumSeaGreen;">Interno</i> ed <i style="color:DodgerBlue;">Esterno</i>.
+
+---
+
+## Idempotenza
+
+<p style="color:DodgerBlue;">È la proprietà di un'operazione che applicata una o più volte non cambia il risultato prodotto.</p><p style="color:MediumSeaGreen;">L'applicazione multipla ed asincrona della funzione con questa proprietà non introduce collisioni o comportamenti non deterministici.</p>
+
+Note: la copia di un file, se non modifico il sorgente quello che otterò sulla destinazione sarà lo stesso file o un fallimento dell'operazione.
 
 ---
 
