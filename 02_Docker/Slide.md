@@ -79,3 +79,61 @@
 <!-- .element height="100%" width="100%" -->
 
 ---
+
+## Creazione di un Container
+
+```bash
+bash-4.4$ docker run -it ubuntu bash
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+1be7f2b886e8: Pull complete
+6fbc4a21b806: Pull complete
+c71a6f8e1378: Pull complete
+4be3072e5a37: Pull complete
+06c6d2f59700: Pull complete
+Digest: sha256:e27e9d7f7f28d67aa9e2d7540bdc2b33254b452ee8e60f388875e5b7d9b2b696
+Status: Downloaded newer image for ubuntu:latest
+root@66170252cf62:/#uname -a
+Linux 66170252cf62 4.9.75-linuxkit-aufs #1 SMP Tue Jan 9 10:58:17 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+```
+
+---
+
+## Creazione di un'Immagine
+
+```docker
+FROM php:5.6-apache
+# Install XDebug
+RUN yes | pecl install xdebug \
+    && echo "zend_extension=$(find /usr/local/lib/php/extensions/ -name xdebug.so)" > /usr/local/etc/php/conf.d/xdebug.ini \
+    && echo "xdebug.remote_enable=on" >> /usr/local/etc/php/conf.d/xdebug.ini \
+    && echo "xdebug.remote_autostart=off" >> /usr/local/etc/php/conf.d/xdebug.ini
+
+# Install PHP exrensions.
+RUN apt-get update \
+    	&& apt-get install -y \
+    		imagemagick \
+    		graphicsmagick \
+    		zip \
+    		unzip \
+    		wget \
+    		curl \
+    		git \
+    		mysql-client \
+    		moreutils \
+    		dnsutils \
+        && docker-php-ext-install -j$(nproc) mysqli \
+    	&& rm -rf /var/lib/apt/lists/*
+# Enable mod_rewrite.
+RUN a2enmod deflate filter rewrite headers
+
+# Enable mod_expires
+RUN cp /etc/apache2/mods-available/expires.load /etc/apache2/mods-enabled/
+
+# Copy PHP configuration file template.
+COPY php.ini /usr/local/etc/php
+```
+
+`From: ./02_Docker/code/01/dockerfile`
+
+---
