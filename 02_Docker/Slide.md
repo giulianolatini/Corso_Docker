@@ -137,3 +137,38 @@ COPY php.ini /usr/local/etc/php
 `From: ./02_Docker/code/01/dockerfile`
 
 ---
+
+## Layers
+
+![Container Layers](02_Docker/img/container-layer.png)
+<!-- .element height="100%" width="100%" -->
+
+---
+
+## Cosa succede dopo un <i style="color:MediumSeaGreen;">docker run</i>
+
+![Layers2Command Order](02_Docker/img/Layers_and_commands.png)
+<!-- .element height="55%" width="55%" -->
+
+---
+
+## Layers condivisi
+
+![Container Sharing Layers](02_Docker/img/sharing-layers.jpg)
+<!-- .element height="80%" width="80%" -->
+
+---
+
+## Host-FileSystem condivisi
+
+![Host Dirs Sharing](02_Docker/img/shared-volume.jpg)
+<!-- .element height="80%" width="80%" -->
+
+---
+
+## Files Vision in OverlayFS
+
+![OverlayFS Vision Order](02_Docker/img/overlay_constructs.jpg)
+<!-- .element height="120%" width="120%" -->
+
+---
