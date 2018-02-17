@@ -20,7 +20,7 @@ Il concetto di <i style="color:Tomato;">Isolamento</i> dipende dalla definizione
 
 ## Idempotenza
 
-<p style="color:DodgerBlue;">È la proprietà di un'operazione che applicata molteplici volte produce gli stessi risultati generati della sua singola applicazione.</p><p style="color:MediumSeaGreen;">L'applicazione multipla ed asincrona della funzione con questa proprietà non introduce collisioni o comportamenti non deterministici.</p>
+<p style="color:DodgerBlue;">È la proprietà di un'operazione che applicata una o più volte non cambia il risultato prodotto.</p><p style="color:MediumSeaGreen;">L'applicazione multipla ed asincrona della funzione con questa proprietà non introduce collisioni o comportamenti non deterministici.</p>
 
 Note: la copia di un file, se non modifico il sorgente quello che otterò sulla destinazione sarà lo stesso file o un fallimento dell'operazione.
 
@@ -46,3 +46,12 @@ Note: la copia di un file, se non modifico il sorgente quello che otterò sulla 
 </table>
 
 ---
+
+## Stato
+
+Contenuto informativo temporaneo o persistente nell'artefatto che annulli la proprietà di <i style="color:DodgerBlue;">idempotenza</i>.
+Per ripristinare la proprietà di <i style="color:DodgerBlue;">idempotenza</i>, l'artefatto delega ad elementi esterni la gestione dei propri stati.
+
+---
+
+
