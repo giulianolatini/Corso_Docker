@@ -14,7 +14,7 @@
 
 * Software non scalabile
 
-* Quando lo sforzo di Automazione delle Op.<br>produce un ROI negativo
+* Quando lo sforzo di Automazione delle Ops<br>produce un ROI negativo
 
 Note: ROI = [Return on investment](https://it.wikipedia.org/wiki/Return_on_investment)
 
