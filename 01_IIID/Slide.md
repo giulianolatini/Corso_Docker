@@ -86,3 +86,31 @@ services:
 ```
 
 ---
+
+## Vantaggi
+
+- Resilienza
+
+- Scalabilità Dinamica
+
+- Documentazione
+
+- Replicabilità
+
+- Diaccoppiamento dall'Hardware
+
+- Test d'Infrastruttura automatizzabili 
+
+- Condivisione
+
+---
+
+## Vincoli
+
+- Esatta conoscenza dei domini che concorrono nell'Infrastruttura
+
+- Oneroso per aggiustamenti di lieve entità
+
+- Rigore nel Workflow di lavoro
+
+- Studio, Analisi, Test, Tempo
