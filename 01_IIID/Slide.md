@@ -17,7 +17,7 @@
       </td>
       <td style="center; vertical-align: middle; width:500px;">
         <blockquote>
-          <p>Una completa automazione assicura la facile ripetibilità dei rilasci e riduce gli errori nell’operazione.</p>
+          <p>Una completa automazione assicura la facile <i style="color:MediumSeaGreen;">ripetibilità</i> dei rilasci e riduce gli <i style="color:Tomato;">errori</i> nell’operazione.</p>
         </blockquote>
       </td>
     </tr>
@@ -28,7 +28,7 @@
 
 ## Infrastruttura
 
-Insieme di materiale ed elementi singoli che collaborano a sostenere, produrre ed erogare beni e servizi. Nel mondo ICT sono hardware e/o artefatti software che collaborano per risolvere problemi complessi.
+Insieme di materiale ed elementi singoli che collaborano a sostenere, produrre ed erogare beni e servizi. Nel mondo ICT sono <i style="color:DodgerBlue;">hardware</i> e/o <i style="color:MediumSeaGreen;">artefatti software</i> che collaborano per risolvere problemi complessi.
 
 ---
 
@@ -53,5 +53,36 @@ Per ripristinare la proprietà di <i style="color:DodgerBlue;">idempotenza</i>, 
 
 ---
 
+## Definizione Formare d'Infrastruttura
 
+Descrizione oggettiva dell'<i style="color:Tomato;">infrastruttura</i> la cui implementazione viene delegata ad una procedura automatica.
 
+---
+
+### Esempio di Definizione Formale
+
+```yaml
+version: '2'
+
+services:
+  web:
+    build: ./php/
+    volumes:
+      - /var/www:/var/www/html:rw
+    ports:
+      - "80:80"
+      - "443:443"
+    links:
+      - mysql
+    environment:
+      XDEBUG_CONFIG: remote_host=10.211.55.2
+
+  mysql:
+    image: mysql:5
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "3306:3306"
+```
+
+---
