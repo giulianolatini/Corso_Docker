@@ -1,0 +1,14 @@
+wordpress:
+    image: wordpress
+    links:
+        - mysql
+    environment:
+        - WORDPRESS_DB_PASSWORD=secretp@ssword
+        - VIRTUAL_HOST=example.com
+    expose:
+        - 80
+mysql:
+    image: mysql:5.7
+    environment:
+        - MYSQL_ROOT_PASSWORD=secretp@ssword
+        - MYSQL_DATABASE=wordpress
