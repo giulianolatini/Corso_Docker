@@ -30,4 +30,55 @@ Note: ROI = [Return on investment](https://it.wikipedia.org/wiki/Return_on_inves
 
 * Alta scalabilità e automazione dei processi Op
 
-* Assenza di stato nei worker applicativi, gli stati sono persistiti da altri elementi architetturali
+* Assenza di stato nei Container Applicativi, gli stati sono persistiti da altri elementi architetturali
+
+---
+
+## Deploy automatizzato di infrastrutture a VM
+
+* Definizione di una _GoldenImage_ o _Template_ come iso base d'installazione
+
+* Deploy automatico e personalizzazioni
+
+<table>
+  <tbody>
+    <tr>
+      <td style="center; vertical-align: middle;">
+        <ul>
+          <li>scripting</li>
+          <li>juju</li>
+          <li>Vagrant</li>
+          <li>Ansible</li>
+        </ul>
+      </td>
+      <td style="center; vertical-align: middle; width:500px;">
+        <ul>
+          <li>Puppet</li>
+          <li>Chef</li>
+          <li>Mesosphere DC/OS</li>
+          <li>Kubernetes</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+## Deploy automatizzato di infrastrutture a Container
+
+### Scrivo un _docker-compose.yml_ 
+
+Docker, _out-of-the-box_ si occupa di implementarlo.
+
+---
+
+## da _VM_ a _Container_ 
+### richiede un po' di esercizio ed<br>un diverso approccio mentale.
+
+* No Gestione Manuale!!! -> Lavoro che andrà perso!
+* No Gestione Network!!! -> L'infrastruttura è autonoma in questo!
+* No Configurazioni Arlecchino!!! -> Creano<br>_Single-Point-Of-Failure_!
+* No Know-how Silos!!! -> Quando serve il<br>_Master-of-Know-how_ non si trova!
+
+---
