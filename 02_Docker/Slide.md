@@ -185,11 +185,11 @@ COPY php.ini /usr/local/etc/php
 
 ---
 
-## Glossario Dockern avanzato
+## Glossario Docker avanzato
 
 - _Docker Host_: Sistema fisico o virtuale in cui viene eseguita la _Docker Engine_
 
-- _Docker Registry_: Repository di immagini Pubblico (http://hub.docker.com) o Privato
+- _Docker Registry_: Repository di immagini Pubblico [hub.docker.com](http://hub.docker.com) o Privato
 
 - _Docker Compose_: Orchestrator di infrastrutture multicontainer organizzati in servizi
 
