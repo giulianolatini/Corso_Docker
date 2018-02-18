@@ -172,3 +172,64 @@ COPY php.ini /usr/local/etc/php
 <!-- .element height="120%" width="120%" -->
 
 ---
+
+## Glossario Docker base
+
+- _Docker Engine_: deamon gestore dei elementi di un _Docker Host_
+
+- _Docker Client_: CommandLine Interface per interagire con la _Docker Engine_ locale o remota
+
+- _Docker Image_: readonly template generato da `docker build` da cui avviare uno o più Container
+
+- _Docker Container_: artefatto attivo prodotto da `docker run` a partire da un'immagine
+
+---
+
+## Glossario Dockern avanzato
+
+- _Docker Host_: Sistema fisico o virtuale in cui viene eseguita la _Docker Engine_
+
+- _Docker Registry_: Repository di immagini Pubblico (http://hub.docker.com) o Privato
+
+- _Docker Compose_: Orchestrator di infrastrutture multicontainer organizzati in servizi
+
+- _Docker Swarm_: Cluster multihost ad orchestrazione automatica
+
+---
+
+## Workflow comandi Docker 
+
+![Container Layers](02_Docker/img/Docker_cli_command_and_workflow.png)
+<!-- .element height="100%" width="100%" -->
+
+---
+
+## Principali Verbi Docker
+
+- Build Image (Interpretazione del Dockerfile)
+
+  ```bash
+  docker build dockerID/imagename:tag .
+  ```
+
+- Run Container (creazione del Container da un'immagine)
+
+  ```bash
+  docker run -d dockerID/imagename:tag
+  ```
+
+- Pull Image (scarico di un'immagine)
+
+  ```bash
+  docker pull dockerID/imagename:tag
+  ```
+
+- Push Image (invio di un immagine al repository)
+
+  ```bash
+  docker push dockerID/imagename:tag
+  ```
+---
+
+## Analisi di un Dockerfile
+
