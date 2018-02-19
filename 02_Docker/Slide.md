@@ -28,6 +28,18 @@
 
 ---
 
+## Download da Docker Hub
+
+![Download da Docker Hub](02_Docker/img/Timeline_Pulls-Chart@2x.png)
+<!-- .element height="90%" width="90%" -->
+
+---
+## Containers Workflow 
+
+![Containers Workflow](02_Docker/img/Docker_application_cicles.svg)
+<!-- .element height="90%" width="90%" -->
+
+---
 ## L'immagine secondo Docker.inc
 
 ![Graphics DevOps Origin](02_Docker/img/Container_Meaning_from_Docker_Website.png)
