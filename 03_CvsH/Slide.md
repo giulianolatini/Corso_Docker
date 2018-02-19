@@ -4,6 +4,13 @@
 
 ---
 
+## VM e Container a confronto
+
+![Vm vs Container](03_CvsH/img/containers-vms-together@2x.png)
+<!-- .element height="90%" width="90%" -->
+
+---
+
 ## Quando uso le VM
 
 * Hardware da simulare<br>Es. <i>MAME is a multi-purpose emulation framework.</i>
