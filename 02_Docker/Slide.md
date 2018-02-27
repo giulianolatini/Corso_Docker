@@ -370,5 +370,3 @@ CMD ["mysqld"]
 ```
 
 `From: ./02_Docker/code/02/dockerfile`
-
----

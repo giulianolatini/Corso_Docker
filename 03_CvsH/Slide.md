@@ -87,5 +87,3 @@ Docker, _out-of-the-box_ si occupa di implementarlo.
 * No Gestione Network!!! -> L'infrastruttura è autonoma in questo!
 * No Configurazioni Arlecchino!!! -> Creano<br>_Single-Point-Of-Failure_!
 * No Know-how Silos!!! -> Quando serve il<br>_Master-of-Know-how_ non si trova!
-
----

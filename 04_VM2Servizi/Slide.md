@@ -76,5 +76,3 @@ volumes:
 ```
 
 `From: ./04_VM2Servizi/code/01/dockerfile`
-
----

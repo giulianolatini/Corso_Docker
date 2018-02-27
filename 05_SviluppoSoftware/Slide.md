@@ -51,5 +51,3 @@ Non installare la versione dell'interprete php necessario allo sviluppo, ma usar
 
 ![PHP Interpreter Configuration](05_SviluppoSoftware/img/PHPStorm_Preference_PHP.png)
 <!-- .element height="100%" width="100%" -->
-
----
