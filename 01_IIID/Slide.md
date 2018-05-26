@@ -114,3 +114,8 @@ services:
 - Rigore nel Workflow di lavoro
 
 - Studio, Analisi, Test, Tempo
+
+---
+
+![Container Layers](img/Questions_Answers.jpg)
+<!-- .element height="100%" width="100%" -->

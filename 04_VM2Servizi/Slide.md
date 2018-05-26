@@ -76,3 +76,8 @@ volumes:
 ```
 
 `From: ./04_VM2Servizi/code/01/dockerfile`
+
+---
+
+![Container Layers](img/Questions_Answers.jpg)
+<!-- .element height="100%" width="100%" -->

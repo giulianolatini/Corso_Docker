@@ -241,6 +241,7 @@ COPY php.ini /usr/local/etc/php
   ```bash
   docker push dockerID/imagename:tag
   ```
+
 ---
 
 ## Analisi di un Dockerfile
@@ -370,3 +371,8 @@ CMD ["mysqld"]
 ```
 
 `From: ./02_Docker/code/02/dockerfile`
+
+---
+
+![Container Layers](img/Questions_Answers.jpg)
+<!-- .element height="100%" width="100%" -->

@@ -114,3 +114,8 @@
 ---
 ![Wordpress in Docker](07_Swarm/img/DS_Networking_Multitenant.png)
 <!-- .element height="100%" width="100%" -->
+
+---
+
+![Container Layers](img/Questions_Answers.jpg)
+<!-- .element height="100%" width="100%" -->

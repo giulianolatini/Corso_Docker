@@ -133,3 +133,8 @@ From: ./06_GestioneSistemi/code/02/docker-compose.yml
 
 ![Wordpress in Docker monodbms](06_GestioneSistemi/img/2015-10-21DockerNginxWordPressProxyTopology.jpg)
 <!-- .element height="60%" width="60%" -->
+
+---
+
+![Container Layers](img/Questions_Answers.jpg)
+<!-- .element height="100%" width="100%" -->
