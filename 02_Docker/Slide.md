@@ -34,6 +34,7 @@
 <!-- .element height="90%" width="90%" -->
 
 ---
+
 ## Containers Workflow 
 
 ![Containers Workflow](02_Docker/img/Docker_application_cicles.svg)
