@@ -16,8 +16,6 @@
 
 * [Docker in Practice, Second Edition](https://www.manning.com/books/docker-in-practice-second-edition)
 
-* [Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)
-
 * [Docker Bootcamp](https://www.packtpub.com/virtualization-and-cloud/docker-bootcamp)
 
 ### VideoCorsi
@@ -39,6 +37,8 @@
 * [Docker Deep Dive](https://www.amazon.it/Docker-Deep-English-Nigel-Poulton-ebook/dp/B01LXWQUFF/ref=sr_1_2?s=digital-text&ie=UTF8&qid=1527435469&sr=1-2&keywords=Nigel+Poulton)
 
 * [Mastering Docker - Second Edition](https://www.packtpub.com/virtualization-and-cloud/mastering-docker-second-edition)
+
+* [Monitoring Docker](https://www.packtpub.com/virtualization-and-cloud/monitoring-docker)
 
 * [Docker Orchestration](https://www.packtpub.com/virtualization-and-cloud/docker-orchestration)
 
